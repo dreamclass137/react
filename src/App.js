@@ -1,5 +1,5 @@
 import './App.css';
-
+import Student from './Student';
 //anonyms
 //const App=function(){
 //Arrow function 
@@ -16,6 +16,7 @@ function App() {
         <h1>Student Info</h1>
         <hr />
         <Student name="alex" place="aus" />
+        <Subject/>
         <hr />
         <Student name="zoha" place="west" />
         <hr />
@@ -27,13 +28,9 @@ function App() {
   );
 }
 
-const Student = (props) => {
 
-  return (
-    <>
-      <h3>Name : {props.name}</h3>
-      <h3>Education: {props.place}</h3>
-    </>
-  );
+
+const Subject=()=>{
+  return "Java Script"
 }
 export default App;
