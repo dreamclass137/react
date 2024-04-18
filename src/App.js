@@ -1,5 +1,7 @@
+import styles from './App.module.css';
 import './App.css';
 import Student from './Student';
+
 //anonyms
 //const App=function(){
 //Arrow function 
@@ -7,13 +9,13 @@ import Student from './Student';
 function App() {
   const city = <b>surat</b>
 
-
   return (
     <>
       <div className="conatiner">
-        <h1>Dream class</h1>
-        <p> Live in {city}</p>
-        <h1>Student Info</h1>
+        <h1 id="first">Dream class</h1>
+        <p className={styles.abc}>Computer-IT Institute</p>
+        {/* <p> Live in {city}</p> */}
+        <h1 id={styles.box}>Student Info</h1>
         <hr />
         <Student name="alex" place="aus" />
         <Subject/>
