@@ -1,3 +1,17 @@
 #first{
   color:#1e1e60;
 }
+.card{
+  box-shadow: 2px 3px 2px 1px #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  margin:10px;
+  width:300px;
+  border:solid 1px #eee;
+}
+
+.flexs{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
